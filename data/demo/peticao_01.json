@@ -1,0 +1,102 @@
+{
+  "id": "peticao_01",
+  "arquivo_pdf": "data/peticoes/peticao_01.pdf",
+  "titulo": "Maria das Dores x Supermercados Boa Compra (limpeza de banheiros e jornada)",
+  "numero_processo": "0000001-00.2026.5.06.0000 (FICTÍCIO)",
+  "reclamante": "Maria das Dores Silva Santos",
+  "reclamada": "Supermercados Boa Compra Ltda.",
+  "vara": "Vara do Trabalho de Recife/PE",
+  "contrato": {
+    "funcao": "Auxiliar de serviços gerais",
+    "admissao": "03/02/2021",
+    "dispensa": "15/05/2026",
+    "salario": 1850.00,
+    "modalidade": "Dispensa sem justa causa, aviso prévio indenizado"
+  },
+  "valor_causa": 117850.00,
+  "resumo": "A reclamante pede adicional de insalubridade em grau máximo pela limpeza de banheiros de loja com grande fluxo, horas extras sem controle de ponto, intervalo reduzido, multa pelo atraso nas verbas rescisórias e dano moral. O maior risco concentra-se no adicional de insalubridade e na multa do art. 477. As horas extras dependem da existência de controles de jornada.",
+  "pedidos": [
+    {
+      "id": "p1",
+      "descricao": "Adicional de insalubridade em grau máximo (40%) e reflexos",
+      "valor": 38000.00,
+      "verba_id": "insalubridade",
+      "fundamentos": ["sum_448"],
+      "risco": "provavel",
+      "justificativa": "A atividade descrita, com cerca de 12 limpezas por dia em sanitários de loja com 3.000 clientes diários e coleta do lixo respectivo, aproxima-se do item II da Súmula 448. A perícia é o centro da prova.",
+      "defesa": [
+        "Demonstrar rodízio de tarefas e limpeza apenas eventual dos sanitários.",
+        "Provar o fornecimento e a fiscalização do uso de EPI, com ficha de entrega assinada.",
+        "Explorar no laudo o fluxo real de pessoas e a frequência da limpeza."
+      ],
+      "prova_chave": "Laudo pericial no local de trabalho."
+    },
+    {
+      "id": "p2",
+      "descricao": "Horas extras excedentes à oitava diária e à quadragésima quarta semanal, com reflexos",
+      "valor": 42000.00,
+      "verba_id": "horas_extras",
+      "fundamentos": ["sum_338"],
+      "risco": "possivel",
+      "justificativa": "A reclamada tem mais de 200 empregados e, segundo a petição, não registra a jornada dos serviços gerais. Se isso se confirmar, a Súmula 338 gera presunção relativa a favor da jornada da inicial. O risco sobe para provável se a empresa confirmar que não tem nenhum controle de frequência para essa função.",
+      "defesa": [
+        "Verificar a existência de catraca, controle de acesso ou escala assinada que sirva como prova da jornada.",
+        "Levar testemunhas para elidir a jornada de 06h às 15h40 em seis dias por semana."
+      ],
+      "prova_chave": "Controles de frequência e prova testemunhal."
+    },
+    {
+      "id": "p3",
+      "descricao": "Intervalo intrajornada suprimido (30 minutos por dia), com reflexos",
+      "valor": 21000.00,
+      "verba_id": "intervalo",
+      "fundamentos": ["sum_437"],
+      "risco": "possivel",
+      "justificativa": "O contrato começou em 2021, depois da reforma trabalhista. Para esse período, o art. 71, § 4º, da CLT limita o pagamento ao tempo suprimido, com natureza indenizatória e sem reflexos. O valor pedido parece superestimado porque trata o intervalo como hora cheia com reflexos.",
+      "defesa": [
+        "Impugnar o cálculo, que aplica a lógica da Súmula 437 a contrato posterior à reforma.",
+        "Provar que o intervalo era usufruído integralmente."
+      ],
+      "prova_chave": "Prova da fruição do intervalo e data de início do contrato."
+    },
+    {
+      "id": "p4",
+      "descricao": "Multa do art. 477, § 8º, da CLT por atraso no pagamento das verbas rescisórias",
+      "valor": 1850.00,
+      "verba_id": "multa_477",
+      "fundamentos": ["sum_462"],
+      "risco": "provavel",
+      "justificativa": "O término do contrato ocorreu em 15/05/2026 e o pagamento só em 02/06/2026, depois do prazo de dez dias do art. 477, § 6º, da CLT. A Súmula 462 afasta a multa apenas se o empregado der causa à mora, o que a petição não sugere.",
+      "defesa": [
+        "Conferir a data real do término do contrato e os comprovantes de pagamento.",
+        "Verificar se a demora decorreu de ato da empregada, como a ausência na homologação."
+      ],
+      "prova_chave": "Comprovante de pagamento e termo de rescisão."
+    },
+    {
+      "id": "p5",
+      "descricao": "Indenização por dano moral por humilhações reiteradas",
+      "valor": 15000.00,
+      "verba_id": "dano_moral",
+      "fundamentos": ["stf_adi_6050"],
+      "risco": "remoto",
+      "justificativa": "A inicial descreve o fato de forma genérica, sem datas, nomes de testemunhas ou prova documental. O ônus de provar o fato constitutivo é da reclamante. O risco muda se uma testemunha confirmar tratamento reiterado.",
+      "defesa": [
+        "Impugnar a falta de especificação dos fatos.",
+        "Ouvir o supervisor apontado e colegas de loja sobre o tratamento dispensado à equipe."
+      ],
+      "prova_chave": "Testemunhas do ambiente de trabalho."
+    }
+  ],
+  "atencao_geral": ["stf_adi_5766", "stf_adc_58"],
+  "proximos_passos": [
+    "Solicitar a perícia de insalubridade no local e preparar os quesitos sobre fluxo de pessoas e frequência da limpeza.",
+    "Reunir os controles de frequência e as fichas de entrega de EPI antes da audiência.",
+    "Recalcular o intervalo pelo art. 71, § 4º, da CLT para apresentar valor de referência na defesa.",
+    "Verificar o comprovante de pagamento das verbas rescisórias e a data do término do contrato."
+  ],
+  "revisao": {
+    "gerada_por": "Claude (IA), em 16/11/2026",
+    "status": "Aguardando revisão do advogado responsável"
+  }
+}

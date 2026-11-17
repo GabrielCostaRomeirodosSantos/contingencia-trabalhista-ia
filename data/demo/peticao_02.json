@@ -1,0 +1,114 @@
+{
+  "id": "peticao_02",
+  "arquivo_pdf": "data/peticoes/peticao_02.pdf",
+  "titulo": "Carlos Eduardo x Transportadora Rota Norte (justa causa, jornada e periculosidade)",
+  "numero_processo": "0000002-00.2026.5.06.0000 (FICTÍCIO)",
+  "reclamante": "Carlos Eduardo Lima Barbosa",
+  "reclamada": "Transportadora Rota Norte Ltda.",
+  "vara": "Vara do Trabalho de Jaboatão dos Guararapes/PE",
+  "contrato": {
+    "funcao": "Motorista carreteiro",
+    "admissao": "10/08/2019",
+    "dispensa": "02/04/2026",
+    "salario": 4200.00,
+    "modalidade": "Dispensa por justa causa (desvio de carga), contestada"
+  },
+  "valor_causa": 198920.00,
+  "resumo": "O reclamante pede a reversão de justa causa por desvio de carga, horas extras com base em relatório do tacógrafo, adicional de periculosidade por dirigir caminhão-tanque, e dano moral por acusação pública de furto. A reversão da justa causa e as horas extras têm maior risco, porque o reclamante apresenta prova documental. A periculosidade e o dano moral dependem de perícia e do desfecho da justa causa.",
+  "pedidos": [
+    {
+      "id": "p1",
+      "descricao": "Reversão da justa causa e multa de 40% sobre o FGTS",
+      "valor": 14400.00,
+      "verba_id": "termino_contrato",
+      "fundamentos": ["sum_212"],
+      "risco": "provavel",
+      "justificativa": "A prova da falta grave cabe ao empregador, por ser fato impeditivo do direito às verbas (art. 818 da CLT). O reclamante apresenta boletim de ocorrência próprio, mensagem à empresa e rastreamento que indica parada forçada. A empresa só cita um boletim registrado por ela mesma. A Súmula 212 não resolve a configuração da justa causa; serve apenas de apoio quando se nega o término do contrato.",
+      "defesa": [
+        "Buscar prova independente do desvio, como imagens, dados de rastreamento e relatórios do cliente.",
+        "Provar a imediatidade da punição e a gravidade da falta."
+      ],
+      "prova_chave": "Dados de rastreamento, imagens e prova do desvio."
+    },
+    {
+      "id": "p2",
+      "descricao": "Aviso prévio proporcional de 48 dias",
+      "valor": 6720.00,
+      "verba_id": "aviso_previo",
+      "fundamentos": ["sum_441"],
+      "risco": "provavel",
+      "justificativa": "Acompanha o resultado do pedido anterior. Com seis anos completos de contrato, o aviso soma 30 dias mais 18 dias, ou seja, 48 dias, conforme a Lei 12.506/2011. O valor pedido (R$ 4.200 por mês, 48 dias) confere com essa conta.",
+      "defesa": [
+        "Seguir a mesma estratégia do pedido de reversão da justa causa."
+      ],
+      "prova_chave": "Prova da falta grave."
+    },
+    {
+      "id": "p3",
+      "descricao": "Multa do art. 477, § 8º, da CLT",
+      "valor": 4200.00,
+      "verba_id": "multa_477",
+      "fundamentos": ["sum_462"],
+      "risco": "possivel",
+      "justificativa": "Se a justa causa for revertida em juízo, há divergência no TST. Algumas decisões afastam a multa porque a extinção só produziria efeitos a partir da sentença. Outras aplicam a multa mesmo nesse caso. Por isso o risco fica em faixa intermediária.",
+      "defesa": [
+        "Arguir a tese de que o atraso não existe quando a ruptura é declarada em juízo.",
+        "Provar que pagou as verbas incontroversas no prazo."
+      ],
+      "prova_chave": "Prova do pagamento das verbas incontroversas."
+    },
+    {
+      "id": "p4",
+      "descricao": "Horas extras com reflexos, conforme relatório do tacógrafo digital",
+      "valor": 68000.00,
+      "verba_id": "horas_extras",
+      "fundamentos": ["sum_338"],
+      "risco": "provavel",
+      "justificativa": "A própria empresa mantém tacógrafo e rastreador, o que tende a afastar a tese de atividade externa sem controle de jornada (art. 62, I, da CLT). O relatório do tacógrafo é prova técnica contra a empresa. Se a empresa não apresentar controles em sentido contrário, a Súmula 338 reforça a presunção da jornada da inicial.",
+      "defesa": [
+        "Impugnar o relatório quanto a tempos de espera, descanso e paradas, que podem não ser tempo à disposição.",
+        "Apresentar os controles próprios, escalas e comprovantes de descanso."
+      ],
+      "prova_chave": "Relatório do tacógrafo e controles internos."
+    },
+    {
+      "id": "p5",
+      "descricao": "Adicional de periculosidade de 30% por cinco anos",
+      "valor": 75600.00,
+      "verba_id": "periculosidade",
+      "fundamentos": ["sum_364"],
+      "risco": "possivel",
+      "justificativa": "A Súmula 364 reconhece o adicional para exposição permanente ou intermitente, e a carga é de 30.000 litros de combustível. A questão técnica é o enquadramento do produto e da forma de transporte na norma de periculosidade. Só a perícia resolve.",
+      "defesa": [
+        "Pedir perícia e formular quesitos sobre a classificação do produto, o volume e o tipo de recipiente.",
+        "Verificar eventual pagamento de adicional já feito ao reclamante, para compensação."
+      ],
+      "prova_chave": "Laudo pericial e classificação técnica do produto."
+    },
+    {
+      "id": "p6",
+      "descricao": "Indenização por dano moral por acusação pública de furto",
+      "valor": 30000.00,
+      "verba_id": "dano_moral",
+      "fundamentos": ["stf_adi_6050"],
+      "risco": "possivel",
+      "justificativa": "Há captura de tela de grupo com mais de 80 pessoas e acusação de crime. Se a justa causa cair, o risco cresce. Depois do STF, o art. 223-G da CLT orienta, mas não limita, o valor fixado.",
+      "defesa": [
+        "Apurar quem publicou a mensagem e se a empresa tinha ciência ou autoria.",
+        "Argumentar que a comunicação ocorreu em contexto de apuração de fato real."
+      ],
+      "prova_chave": "Autoria e conteúdo da mensagem no grupo."
+    }
+  ],
+  "atencao_geral": ["stf_adi_5766", "stf_adc_58"],
+  "proximos_passos": [
+    "Reunir imediatamente os dados de rastreamento e as imagens da viagem do dia do roubo.",
+    "Solicitar a perícia de periculosidade e preparar quesitos técnicos.",
+    "Conferir o relatório do tacógrafo e separar tempos de espera, descanso e direção.",
+    "Identificar o autor da mensagem no grupo e as medidas internas adotadas depois dela."
+  ],
+  "revisao": {
+    "gerada_por": "Claude (IA), em 16/11/2026",
+    "status": "Aguardando revisão do advogado responsável"
+  }
+}

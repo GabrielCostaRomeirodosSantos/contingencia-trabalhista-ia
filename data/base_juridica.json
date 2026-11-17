@@ -1,0 +1,255 @@
+{
+  "versao": "0.1 (16/11/2026)",
+  "aviso": "Base curada com apoio de IA a partir de fontes públicas. Cada item traz o link da fonte para conferência. Resumos redigidos em linguagem própria; o texto oficial prevalece.",
+  "criterio_risco": {
+    "provavel": "Perda mais provável que improvável. Exige provisão contábil do valor estimado (CPC 25).",
+    "possivel": "Perda com chance relevante, mas não preponderante. Exige divulgação em nota explicativa, sem provisão.",
+    "remoto": "Chance de perda pequena. Não exige provisão nem divulgação."
+  },
+  "verbas": [
+    {
+      "id": "horas_extras",
+      "verba": "Horas extras e prova da jornada",
+      "fundamentos": [
+        {
+          "id": "sum_338",
+          "tipo": "Súmula TST",
+          "numero": "338",
+          "titulo": "Jornada de trabalho. Registro. Ônus da prova",
+          "resumo": "O empregador acima do limite legal de empregados deve registrar a jornada. A falta injustificada dos controles gera presunção relativa a favor da jornada da inicial. Cartões com horários uniformes (britânicos) não servem como prova e invertem o ônus.",
+          "status": "Vigente",
+          "alerta": "O item I menciona mais de 10 empregados. A Lei 13.874/2019 elevou o limite do art. 74, § 2º, da CLT para 20. Confira se o redator da defesa invoca o limite correto.",
+          "fontes": [
+            "https://www.coad.com.br/busca/detalhe_16/1008/Sumulas_e_enunciados",
+            "https://analise.com/opiniao/23312"
+          ]
+        },
+        {
+          "id": "sum_85",
+          "tipo": "Súmula TST",
+          "numero": "85",
+          "titulo": "Compensação de jornada",
+          "resumo": "A compensação exige acordo individual escrito, acordo coletivo ou convenção. O descumprimento formal gera só o adicional sobre as horas de compensação. Horas extras habituais descaracterizam o acordo semanal. Banco de horas só por negociação coletiva. Em atividade insalubre, a compensação exige licença prévia da autoridade.",
+          "status": "Vigente",
+          "alerta": "Controvérsia: decisões recentes do TST aplicam orientação do STF (RE 1.476.596) para validar a compensação mesmo com horas extras habituais. O item IV pode ter aplicação afastada. Verificar a situação atual antes de citar.",
+          "fontes": [
+            "https://www.tst.jus.br/documents/10157/cc23ec94-9e08-47e3-8ed6-2e662cee7690",
+            "https://www.tst.jus.br/-/diario-eletronico-da-justica-do-trabalho-publica-alteracoes-da-jurisprudencia-do-t-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intervalo",
+      "verba": "Intervalo intrajornada",
+      "fundamentos": [
+        {
+          "id": "sum_437",
+          "tipo": "Súmula TST",
+          "numero": "437",
+          "titulo": "Intervalo intrajornada para repouso e alimentação",
+          "resumo": "Na redação da súmula, a concessão parcial do intervalo gera o pagamento de uma hora integral, com adicional de 50% e natureza salarial. Vale para contratos até 10/11/2017.",
+          "status": "Vigente, com aplicação limitada pela reforma trabalhista",
+          "alerta": "Controvérsia: para contratos posteriores à Lei 13.467/2017, o art. 71, § 4º, da CLT limita o pagamento ao período suprimido, com natureza indenizatória. Turmas do TST afastam a súmula nesses contratos. Contratos iniciados antes da reforma e encerrados depois geram divergência entre as Turmas.",
+          "fontes": [
+            "https://www.migalhas.com.br/quentes/436531/tst-afasta-hora-extra-por-intervalo-parcial-em-contrato-pos-reforma",
+            "https://www.sedep.com.br/?p=133041"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insalubridade",
+      "verba": "Adicional de insalubridade",
+      "fundamentos": [
+        {
+          "id": "sum_448",
+          "tipo": "Súmula TST",
+          "numero": "448",
+          "titulo": "Atividade insalubre. Caracterização. Instalações sanitárias",
+          "resumo": "A insalubridade exige enquadramento na norma do Ministério do Trabalho. O item II reconhece o grau máximo para a higienização de banheiros de uso público ou coletivo de grande circulação e a coleta do lixo respectivo, por equiparação ao lixo urbano.",
+          "status": "Vigente",
+          "alerta": "Há resistência em Tribunais Regionais, como o TRT-12, que consideram o item II extensivo demais à norma regulamentadora. No TST, a súmula segue aplicada. O resultado depende de perícia sobre o fluxo de pessoas e a frequência da limpeza.",
+          "fontes": [
+            "https://portal.trt12.jus.br/noticias/5a-camara-afasta-previsao-de-sumula-e-nega-percentual-maximo-por-limpeza-de-banheiro",
+            "https://www.migalhas.com.br/quentes/367595/tst-limpeza-de-banheiro-publico-tem-grau-maximo-de-insalubridade"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "periculosidade",
+      "verba": "Adicional de periculosidade",
+      "fundamentos": [
+        {
+          "id": "sum_364",
+          "tipo": "Súmula TST",
+          "numero": "364",
+          "titulo": "Adicional de periculosidade. Exposição eventual, permanente e intermitente",
+          "resumo": "O adicional é devido ao empregado exposto de forma permanente ou intermitente ao risco. Não é devido quando o contato é eventual, assim entendido o fortuito ou o habitual por tempo extremamente reduzido.",
+          "status": "Vigente",
+          "alerta": "A caracterização depende de perícia e do enquadramento do risco na norma regulamentadora aplicável.",
+          "fontes": [
+            "https://www.coad.com.br/busca/detalhe_16/1940/Sumulas_e_enunciados",
+            "https://www.tst.jus.br/-/diario-eletronico-da-justica-do-trabalho-publica-alteracoes-da-jurisprudencia-do-t-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vinculo_pejotizacao",
+      "verba": "Vínculo de emprego e contratação por pessoa jurídica",
+      "fundamentos": [
+        {
+          "id": "stf_tema_1389",
+          "tipo": "Tema STF (repercussão geral)",
+          "numero": "1.389",
+          "titulo": "Pejotização. Fraude em contrato civil ou comercial e competência da Justiça do Trabalho",
+          "resumo": "O STF reconheceu a repercussão geral da matéria e determinou a suspensão nacional dos processos sobre pejotização até o julgamento. O caso paradigma discute o vínculo entre corretor e seguradora, mas a tese tem alcance amplo.",
+          "status": "Pendente de julgamento de mérito nas fontes consultadas",
+          "alerta": "Verificar a situação atual do Tema 1.389 no portal do STF antes de citar. O processo pode estar suspenso, e o tribunal tende a prestigiar contratos civis lícitos. Persiste a possibilidade de vínculo quando há fraude, com pessoalidade, subordinação, onerosidade e não eventualidade.",
+          "fontes": [
+            "https://www.conjur.com.br/?p=843263",
+            "https://www.coad.com.br/home/noticias-detalhe/131348/stf-suspende-processos-em-todo-o-pais-sobre-licitude-de-contratos-de-prestacao-de-servicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resp_subsidiaria",
+      "verba": "Responsabilidade subsidiária do tomador de serviços",
+      "fundamentos": [
+        {
+          "id": "sum_331",
+          "tipo": "Súmula TST",
+          "numero": "331",
+          "titulo": "Terceirização. Responsabilidade subsidiária do tomador",
+          "resumo": "O inadimplemento do empregador gera responsabilidade subsidiária do tomador pelas obrigações trabalhistas. O item IV segue como base da responsabilidade subsidiária.",
+          "status": "Vigente em parte; item I com inconstitucionalidade declarada pelo STF",
+          "alerta": "O item I (ilicitude da terceirização de atividade-fim) foi superado pelo STF no Tema 725. A responsabilidade subsidiária subsiste. Para a Administração Pública, o STF exige comprovação de omissão culposa na fiscalização (Temas 246 e 1.118).",
+          "fontes": [
+            "https://www.meuvademecumonline.com.br/legislacao/sumulas_tst/132/pagina_1/sumula-tst-331/",
+            "https://www.legjur.com/jurisprudencia/eme/622.4637.7240.1337"
+          ]
+        },
+        {
+          "id": "stf_tema_725",
+          "tipo": "Tema STF (repercussão geral)",
+          "numero": "725",
+          "titulo": "Terceirização de qualquer atividade, meio ou fim",
+          "resumo": "O STF declarou lícita a terceirização ou outra forma de divisão do trabalho entre pessoas jurídicas distintas, independentemente do objeto social, e manteve a responsabilidade subsidiária da contratante.",
+          "status": "Vigente (RE 958.252 e ADPF 324)",
+          "alerta": "Não afasta o reconhecimento de vínculo direto quando há fraude, subordinação direta e pessoalidade com o tomador.",
+          "fontes": [
+            "https://informativos.trilhante.com.br/temas-stf/tema-725-stf",
+            "https://www.legjur.com/jurisprudencia/eme/410.6847.1430.7203"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "termino_contrato",
+      "verba": "Modalidade de término do contrato e justa causa",
+      "fundamentos": [
+        {
+          "id": "sum_212",
+          "tipo": "Súmula TST",
+          "numero": "212",
+          "titulo": "Despedimento. Ônus da prova",
+          "resumo": "Se o empregador admite a prestação de serviços e nega a dispensa, ou nega ambas, o ônus de provar o término do contrato é dele, pela presunção de continuidade da relação.",
+          "status": "Vigente",
+          "alerta": "A súmula não resolve a discussão sobre a configuração da justa causa. Nessa hipótese, o TST a considera inespecífica. A prova da falta grave segue a regra do art. 818 da CLT, com ônus do empregador por ser fato impeditivo do direito às verbas.",
+          "fontes": [
+            "https://www.coad.com.br/home/noticias-detalhe/57028/pedido-de-demissao-nao-comprovado-e-convertido-em-dispensa-sem-justa-causa",
+            "https://www.vademecumprevidenciario.com.br/jurisprudencia/eme/934.7437.5219.3257"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aviso_previo",
+      "verba": "Aviso prévio proporcional",
+      "fundamentos": [
+        {
+          "id": "sum_441",
+          "tipo": "Súmula TST",
+          "numero": "441",
+          "titulo": "Aviso prévio. Proporcionalidade",
+          "resumo": "O direito ao aviso prévio proporcional ao tempo de serviço vale para rescisões ocorridas a partir de 13/10/2011, data da publicação da Lei 12.506.",
+          "status": "Vigente",
+          "alerta": "A proporção soma 3 dias por ano completo ao mínimo de 30 dias, limitada a 90 dias no total. Conferir o cálculo.",
+          "fontes": [
+            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/40cdb02d4cd69047ebb489f7cec4e082",
+            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/340877d5a0f27564072bbe4823f364a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multa_477",
+      "verba": "Multa do art. 477, § 8º, da CLT",
+      "fundamentos": [
+        {
+          "id": "sum_462",
+          "tipo": "Súmula TST",
+          "numero": "462",
+          "titulo": "Multa do art. 477, § 8º, da CLT. Reconhecimento judicial da relação de emprego",
+          "resumo": "O reconhecimento do vínculo apenas em juízo não afasta a multa por atraso no pagamento das verbas rescisórias. A multa só não é devida quando o empregado comprovadamente der causa à mora.",
+          "status": "Vigente",
+          "alerta": "Divergência interna: há julgados do TST que afastam a multa quando a justa causa é revertida só em juízo, porque a extinção do contrato produziria efeitos a partir da decisão. Outros aplicam a multa mesmo nessa hipótese.",
+          "fontes": [
+            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/980c74692b6b6ff056bfcd3c11485ebf",
+            "https://jurisprudencia-backend.tst.jus.br/rest/documentos/3e4227990cdaa6c127ca9d8cee997234"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dano_moral",
+      "verba": "Dano moral (extrapatrimonial)",
+      "fundamentos": [
+        {
+          "id": "stf_adi_6050",
+          "tipo": "Controle concentrado STF",
+          "numero": "ADI 6.050, 6.069 e 6.082",
+          "titulo": "Tarifação do dano extrapatrimonial (arts. 223-A a 223-G da CLT)",
+          "resumo": "O STF deu interpretação conforme: os critérios do art. 223-G, caput e § 1º, orientam a fundamentação do juiz. O arbitramento acima dos limites dos incisos I a IV é constitucional, à luz da razoabilidade, da proporcionalidade e da igualdade. Cabe dano em ricochete, pela legislação civil.",
+          "status": "Julgada (plenário, junho de 2023)",
+          "alerta": "A tabela do art. 223-G, § 1º, deixou de funcionar como teto. O valor fixado depende das circunstâncias do caso, o que aumenta a imprevisibilidade da estimativa.",
+          "fontes": [
+            "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=509630",
+            "https://portal.trt3.jus.br/internet/jurisprudencia/repercussao-geral-e-controle-concentrado-adi-adc-e-adpf-stf/downloads/adi-6050-acordao.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "pontos_gerais": [
+    {
+      "id": "stf_adi_5766",
+      "tipo": "Controle concentrado STF",
+      "numero": "ADI 5.766",
+      "titulo": "Honorários e beneficiário da justiça gratuita (arts. 790-B e 791-A, § 4º, da CLT)",
+      "resumo": "O STF declarou inconstitucionais a dedução de honorários de créditos obtidos em outro processo pelo beneficiário da justiça gratuita (art. 791-A, § 4º, em parte) e a regra do art. 790-B, caput e § 4º. Os honorários de sucumbência continuam em 5% a 15% e ficam sob condição suspensiva para o beneficiário.",
+      "status": "Julgada em 20/10/2021",
+      "alerta": "Na estimativa da contingência, o risco de honorários do advogado do reclamante ocorre sobre o que o reclamante ganhar, entre 5% e 15%. Quando o reclamante perde, a cobrança contra ele fica em suspenso.",
+      "fontes": [
+        "https://noticias.stf.jus.br/?p=54429",
+        "https://www.migalhas.com.br/arquivos/2025/9/151B2E31ECFF15_AIRR-1000227-77_2018_5_02_0707.pdf"
+      ]
+    },
+    {
+      "id": "stf_adc_58",
+      "tipo": "Controle concentrado STF",
+      "numero": "ADC 58 e 59 (Tema 1.191)",
+      "titulo": "Correção monetária e juros dos créditos trabalhistas",
+      "resumo": "Na fase pré-judicial, aplica-se o IPCA-E mais juros do art. 39, caput, da Lei 8.177/1991. A partir do ajuizamento, aplica-se a Selic. Após 30/08/2024, a Lei 14.905/2024 manda usar o IPCA como correção e a taxa legal como juros de mora.",
+      "status": "Vigente",
+      "alerta": "Os valores atribuídos aos pedidos na inicial costumam vir sem atualização. A projeção real do passivo exige cálculo próprio com os índices atuais.",
+      "fontes": [
+        "https://revista.tst.jus.br/rtst/article/download/130/213/342",
+        "https://www.admdireito.com.br/jurisprudencia/eme/514.3282.4773.2899"
+      ]
+    }
+  ]
+}

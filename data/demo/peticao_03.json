@@ -1,0 +1,87 @@
+{
+  "id": "peticao_03",
+  "arquivo_pdf": "data/peticoes/peticao_03.pdf",
+  "titulo": "Ana Paula x TechSul e Banco Horizonte (pejotização e terceirização)",
+  "numero_processo": "0000003-00.2026.5.06.0000 (FICTÍCIO)",
+  "reclamante": "Ana Paula Ferreira Cordeiro",
+  "reclamada": "TechSul Soluções Digitais Ltda. e Banco Horizonte S.A.",
+  "vara": "Vara do Trabalho de Recife/PE",
+  "contrato": {
+    "funcao": "Analista de suporte (contratada como pessoa jurídica)",
+    "admissao": "01/03/2022",
+    "dispensa": "20/06/2026",
+    "salario": 6500.00,
+    "modalidade": "Término sem aviso, contrato civil com pessoa jurídica"
+  },
+  "valor_causa": 163500.00,
+  "resumo": "A reclamante pede o reconhecimento de vínculo de emprego por pejotização, com responsabilidade do banco tomador, mais horas extras, multa do art. 477 e dano moral por assédio. Os fatos descritos mostram subordinação direta ao banco, mas o Tema 1.389 do STF cria incerteza grande e pode suspender o processo. Por isso o passivo principal fica em faixa possível, com variação alta.",
+  "pedidos": [
+    {
+      "id": "p1",
+      "descricao": "Reconhecimento do vínculo de emprego, anotação da CTPS, férias com 1/3, décimo terceiro e FGTS com multa de 40%, com responsabilidade do banco",
+      "valor": 96000.00,
+      "verba_id": "vinculo_pejotizacao",
+      "fundamentos": ["stf_tema_1389", "sum_331", "stf_tema_725"],
+      "risco": "possivel",
+      "justificativa": "Os fatos descritos, como exclusividade, horário fixo, estação do banco, chefia direta do gerente do banco e metas, indicam subordinação direta e podem caracterizar fraude. Contra isso, o Tema 1.389 do STF suspendeu nacionalmente os processos sobre pejotização e a Corte tende a prestigiar contratos civis lícitos. O Tema 725 permite a terceirização, mas mantém a responsabilidade subsidiária e não impede o vínculo direto quando há fraude. O risco pode subir para provável se o processo seguir e a prova confirmar a subordinação direta.",
+      "defesa": [
+        "Verificar no portal do STF o estágio do Tema 1.389 e requerer a suspensão do processo, se for o caso.",
+        "Demonstrar autonomia da prestadora, como outros clientes, meios próprios e liberdade de horário.",
+        "Para o banco, sustentar licitude da terceirização e, subsidiariamente, limitar a responsabilidade."
+      ],
+      "prova_chave": "Contrato, notas fiscais, estrutura da prestadora e prova da direção diária."
+    },
+    {
+      "id": "p2",
+      "descricao": "Horas extras excedentes à jornada legal, com reflexos",
+      "valor": 36000.00,
+      "verba_id": "horas_extras",
+      "fundamentos": ["sum_338"],
+      "risco": "possivel",
+      "justificativa": "O pedido só ganha força se o vínculo for reconhecido. Como não há ponto formal, a reclamante usa registros de acesso ao sistema do banco, que podem servir de prova indireta da jornada.",
+      "defesa": [
+        "Impugnar a validade dos registros de acesso como prova da jornada.",
+        "Mostrar que o atendimento noturno era eventual e voluntário."
+      ],
+      "prova_chave": "Registros de acesso ao sistema e prova testemunhal."
+    },
+    {
+      "id": "p3",
+      "descricao": "Multa do art. 477, § 8º, da CLT",
+      "valor": 6500.00,
+      "verba_id": "multa_477",
+      "fundamentos": ["sum_462"],
+      "risco": "possivel",
+      "justificativa": "Se o vínculo for reconhecido em juízo, a Súmula 462 não deixa afastar a multa só por isso. O risco da multa acompanha o do vínculo.",
+      "defesa": [
+        "Seguir a estratégia contra o vínculo; sem vínculo, não há verbas rescisórias."
+      ],
+      "prova_chave": "Resultado do pedido de vínculo."
+    },
+    {
+      "id": "p4",
+      "descricao": "Indenização por dano moral por assédio moral",
+      "valor": 25000.00,
+      "verba_id": "dano_moral",
+      "fundamentos": ["stf_adi_6050"],
+      "risco": "remoto",
+      "justificativa": "A reclamante descreve uma crítica ríspida em reunião, sem testemunhas nem gravação. A cobrança de metas, por si, não prova assédio, e o ônus de provar o fato é dela.",
+      "defesa": [
+        "Impugnar a falta de prova da reunião e do teor da crítica.",
+        "Ouvir os presentes à reunião, se o banco for o interessado."
+      ],
+      "prova_chave": "Testemunhas da reunião."
+    }
+  ],
+  "atencao_geral": ["stf_adi_5766", "stf_adc_58"],
+  "proximos_passos": [
+    "Confirmar a situação atual do Tema 1.389 no portal do STF e avaliar o pedido de suspensão.",
+    "Levantar os fatos de subordinação: quem dava ordens, controle de horário e uso de ferramentas.",
+    "Mapear a estrutura da TechSul e a existência de outros clientes.",
+    "Avaliar a divisão de responsabilidades entre a prestadora e o banco."
+  ],
+  "revisao": {
+    "gerada_por": "Claude (IA), em 16/11/2026",
+    "status": "Aguardando revisão do advogado responsável"
+  }
+}
