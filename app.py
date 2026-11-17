@@ -316,6 +316,12 @@ def animacao_entrada(lado: str, usuario: str) -> str:
     """Refaz a tela de apresentação por cima do site: a balança pende, texto e barra somem, a balança cresce e a tela tomba."""
     sinal = "1" if lado == "direita" else "-1"
     origem = "100% 100%" if lado == "direita" else "0% 100%"
+    nome = usuario if len(usuario) <= 18 else usuario[:17] + "…"
+    tamanho = max(10, min(20, int(110 / (0.62 * max(len(nome), 1)))))
+    cx = 340 if lado == "direita" else 60
+    rotulo = (f'<text class="q-nome" x="{cx}" y="290" text-anchor="middle" font-size="{tamanho}">{esc(nome)}</text>')
+    rot_esq = rotulo if lado == "esquerda" else ""
+    rot_dir = rotulo if lado == "direita" else ""
     return f"""<div class="queda-tela" style="--s:{sinal};transform-origin:{origem}">
 <div class="queda-lado"><div class="marca">{esc(NOME_PRODUTO)}</div>
 <div class="queda-acesso"><b>Acesso</b><span>Conectado como {esc(usuario)}.</span></div></div>
@@ -327,9 +333,9 @@ def animacao_entrada(lado: str, usuario: str) -> str:
 <g class="q-viga"><line class="aco" x1="48" y1="92" x2="352" y2="92" stroke-width="9"/>
 <circle class="aco-p" cx="200" cy="92" r="13"/><circle class="ou" cx="200" cy="92" r="13" stroke-width="4"/></g>
 <g class="q-prato q-esq"><g class="aco" stroke-width="3"><line x1="60" y1="92" x2="22" y2="228"/><line x1="60" y1="92" x2="98" y2="228"/></g>
-<path class="aco-p" d="M10 228 Q60 296 110 228 Z"/><path class="ou" d="M10 228 L110 228" stroke-width="4"/></g>
+<path class="aco-p" d="M10 228 Q60 296 110 228 Z"/><path class="ou" d="M10 228 L110 228" stroke-width="4"/>{rot_esq}</g>
 <g class="q-prato q-dir"><g class="aco" stroke-width="3"><line x1="340" y1="92" x2="302" y2="228"/><line x1="340" y1="92" x2="378" y2="228"/></g>
-<path class="aco-p" d="M290 228 Q340 296 390 228 Z"/><path class="ou" d="M290 228 L390 228" stroke-width="4"/></g>
+<path class="aco-p" d="M290 228 Q340 296 390 228 Z"/><path class="ou" d="M290 228 L390 228" stroke-width="4"/>{rot_dir}</g>
 </svg></div>"""
 
 
