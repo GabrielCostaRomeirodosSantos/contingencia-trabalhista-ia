@@ -43,4 +43,4 @@ qualquer fundamento fora da base. Cada item da base traz alerta de controvérsia
 ## Limites
 
 O valor mostrado é o atribuído pela petição, sem atualização monetária. PDFs escaneados exigem OCR,
-que esta versão não faz. As análises de demonstração aguardam revisão do advogado responsável.
+que esta versão não faz. As análises de demonstração foram revisadas pelo autor com a ajuda da IA.
