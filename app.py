@@ -317,9 +317,13 @@ def animacao_entrada(lado: str, usuario: str) -> str:
     sinal = "1" if lado == "direita" else "-1"
     origem = "100% 100%" if lado == "direita" else "0% 100%"
     nome = usuario if len(usuario) <= 18 else usuario[:17] + "…"
-    tamanho = max(10, min(20, int(110 / (0.62 * max(len(nome), 1)))))
+    tamanho = max(8, min(15, 88 / (0.62 * max(len(nome), 1))))
+    largura = min(96, round(0.62 * tamanho * len(nome) + 16))
     cx = 340 if lado == "direita" else 60
-    rotulo = (f'<text class="q-nome" x="{cx}" y="290" text-anchor="middle" font-size="{tamanho}">{esc(nome)}</text>')
+    rotulo = (
+        f'<g class="q-peso"><rect x="{cx - largura / 2:.1f}" y="202" width="{largura}" height="24" rx="4"/>'
+        f'<text x="{cx}" y="{214 + tamanho * 0.35:.1f}" text-anchor="middle" font-size="{tamanho:.1f}">{esc(nome)}</text></g>'
+    )
     rot_esq = rotulo if lado == "esquerda" else ""
     rot_dir = rotulo if lado == "direita" else ""
     return f"""<div class="queda-tela" style="--s:{sinal};transform-origin:{origem}">
