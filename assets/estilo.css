@@ -399,3 +399,37 @@ section[data-testid="stSidebar"] [data-testid="stLayoutWrapper"]:has(> .st-key-a
 /* aviso informativo na cor do site (marinho e dourado em vez do azul padrão) */
 [data-testid="stMain"] [data-testid="stAlert"]:has([data-testid="stAlertContentInfo"]), [data-testid="stMain"] [data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) { background: #dbe3ea !important; border-left: 4px solid #D9B45F; border-radius: 4px; }
 [data-testid="stMain"] [data-testid="stAlert"]:has([data-testid="stAlertContentInfo"]) * { color: #17212B; }
+
+/* ajuste de aparência: campos e seletores da barra lateral no estilo do site (linha fina dourada, sem caixa) */
+section[data-testid="stSidebar"] [data-testid="stTextInputRootElement"], section[data-testid="stSidebar"] [data-testid="stTextInputRootElement"] > div,
+section[data-testid="stSidebar"] [data-testid="stSelectbox"] [role="group"], section[data-testid="stSidebar"] [data-testid="stSelectbox"] [role="group"] > div {
+  background: transparent !important; background-color: transparent !important; border: 0 !important; box-shadow: none !important; border-radius: 0 !important; }
+section[data-testid="stSidebar"] [data-testid="stTextInputRootElement"], section[data-testid="stSidebar"] [data-testid="stSelectbox"] [role="group"] {
+  border-bottom: 1px solid rgba(217, 180, 95, .75) !important; }
+section[data-testid="stSidebar"] [data-testid="stTextInputRootElement"]:focus-within, section[data-testid="stSidebar"] [data-testid="stSelectbox"] [role="group"]:focus-within {
+  border-bottom: 2px solid #D9B45F !important; }
+section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"], section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] > div,
+section[data-testid="stSidebar"] [data-testid="stSelectbox"] div:has(> button), section[data-testid="stSidebar"] [data-testid="stTextInput"] [data-baseweb="input"],
+section[data-testid="stSidebar"] [data-testid="stTextInput"] [data-baseweb="base-input"] {
+  background: transparent !important; background-color: transparent !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+section[data-testid="stSidebar"] [data-testid="stTextInput"] input, section[data-testid="stSidebar"] [data-testid="stSelectbox"] input {
+  background: transparent !important; background-color: transparent !important; padding-left: .1rem !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+
+/* botões de opção da barra lateral: sem bolinha; o item escolhido ganha marca dourada */
+section[data-testid="stSidebar"] [data-testid="stRadioOption"] > div > div:first-child { display: none !important; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"] { padding: .3rem .1rem .3rem .75rem !important; border-left: 3px solid transparent; cursor: pointer; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"] p { color: #AEB9C8 !important; font-weight: 500; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"] { border-left-color: #D9B45F; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"] p { color: #F3EEE2 !important; font-weight: 700; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"]:hover p { color: #F3EEE2 !important; }
+section[data-testid="stSidebar"] [data-testid="stRadioGroup"][aria-orientation="horizontal"] { gap: 1.4rem !important; }
+section[data-testid="stSidebar"] [data-testid="stRadioGroup"][aria-orientation="horizontal"] [data-testid="stRadioOption"] {
+  padding: .3rem 0 .35rem 0 !important; border-left: 0; border-bottom: 3px solid transparent; }
+section[data-testid="stSidebar"] [data-testid="stRadioGroup"][aria-orientation="horizontal"] [data-testid="stRadioOption"][data-selected="true"] { border-bottom-color: #D9B45F; }
+section[data-testid="stSidebar"] [data-testid="stRadioOption"]:has(input:focus-visible) { outline: 2px solid #D9B45F; outline-offset: 2px; }
+
+/* telas de resultado: colunata mais discreta, para o dado ficar em primeiro plano */
+[data-testid="stMain"]:has(.cabeca) {
+  background-image: linear-gradient(rgba(232, 237, 241, .5), rgba(232, 237, 241, .5)), url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20130%20860%22%20width%3D%22130%22%20height%3D%22860%22%3E%3Crect%20x%3D%2224%22%20y%3D%22104%22%20width%3D%2282%22%20height%3D%2212%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%22116%22%20width%3D%2270%22%20height%3D%2218%22%20rx%3D%226%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Crect%20x%3D%2235%22%20y%3D%22134%22%20width%3D%2260%22%20height%3D%22610%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Cline%20x1%3D%2245.0%22%20y1%3D%22138%22%20x2%3D%2245.0%22%20y2%3D%22740%22%20stroke%3D%22rgba%2870%2C95%2C120%2C0.095%29%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2255.0%22%20y1%3D%22138%22%20x2%3D%2255.0%22%20y2%3D%22740%22%20stroke%3D%22rgba%2870%2C95%2C120%2C0.095%29%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2265.0%22%20y1%3D%22138%22%20x2%3D%2265.0%22%20y2%3D%22740%22%20stroke%3D%22rgba%2870%2C95%2C120%2C0.095%29%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2275.0%22%20y1%3D%22138%22%20x2%3D%2275.0%22%20y2%3D%22740%22%20stroke%3D%22rgba%2870%2C95%2C120%2C0.095%29%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2285.0%22%20y1%3D%22138%22%20x2%3D%2285.0%22%20y2%3D%22740%22%20stroke%3D%22rgba%2870%2C95%2C120%2C0.095%29%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%22744%22%20width%3D%2278%22%20height%3D%2220%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Crect%20x%3D%220%22%20y%3D%22768%22%20width%3D%22130%22%20height%3D%2222%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Crect%20x%3D%220%22%20y%3D%22794%22%20width%3D%22130%22%20height%3D%2226%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3Crect%20x%3D%220%22%20y%3D%22824%22%20width%3D%22130%22%20height%3D%2236%22%20fill%3D%22rgba%2870%2C95%2C120%2C0.075%29%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: repeat-x, repeat-x; background-position: center bottom, center bottom;
+  background-size: auto 100vh, auto 100vh; background-attachment: fixed, fixed; }
