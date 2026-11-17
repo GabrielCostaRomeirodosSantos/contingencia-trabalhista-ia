@@ -383,7 +383,9 @@ section[data-testid="stSidebar"] [data-testid="stLayoutWrapper"]:has(> .st-key-a
   0%, 10% { transform: translateY(0); animation-timing-function: cubic-bezier(.3, 1.5, .5, 1); }
   28%, 100% { transform: translateY(calc(var(--s) * 22px)); }
 }
-.q-nome { font-family: var(--serifa); font-weight: 700; fill: #14243A; stroke: none; animation: q-nome 5s linear both; }
+.q-peso { animation: q-nome 5s linear both; }
+.q-peso rect { fill: #14243A; stroke: none; }
+.q-peso text { font-family: var(--serifa); font-weight: 700; fill: #F3EEE2; stroke: none; }
 @keyframes q-nome { 0%, 22% { opacity: 0; } 32%, 100% { opacity: 1; } }
 @media (max-width: 768px) { .queda-lado { display: none; } .queda-texto { left: 1.5rem; right: 1.5rem; } .queda-balanca { left: 0; width: 100%; } }
 @media (prefers-reduced-motion: reduce) { .stElementContainer:has(.queda-tela) { display: none !important; } }
