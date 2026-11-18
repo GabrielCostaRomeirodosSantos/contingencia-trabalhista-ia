@@ -20,7 +20,7 @@
           "status": "Vigente",
           "alerta": "O item I menciona mais de 10 empregados. A Lei 13.874/2019 elevou o limite do art. 74, § 2º, da CLT para 20. Confira se o redator da defesa invoca o limite correto.",
           "fontes": [
-            "https://www.coad.com.br/busca/detalhe_16/1008/Sumulas_e_enunciados",
+            "https://www.guiatrabalhista.com.br/tematicas/sumula-338-tst-horas-extras.htm",
             "https://analise.com/opiniao/23312"
           ]
         },
@@ -90,7 +90,7 @@
           "status": "Vigente",
           "alerta": "A caracterização depende de perícia e do enquadramento do risco na norma regulamentadora aplicável.",
           "fontes": [
-            "https://www.coad.com.br/busca/detalhe_16/1940/Sumulas_e_enunciados",
+            "https://www.legjur.com/sumula/tst/364",
             "https://www.tst.jus.br/-/diario-eletronico-da-justica-do-trabalho-publica-alteracoes-da-jurisprudencia-do-t-1"
           ]
         }
@@ -109,8 +109,8 @@
           "status": "Pendente de julgamento de mérito nas fontes consultadas",
           "alerta": "Verificar a situação atual do Tema 1.389 no portal do STF antes de citar. O processo pode estar suspenso, e o tribunal tende a prestigiar contratos civis lícitos. Persiste a possibilidade de vínculo quando há fraude, com pessoalidade, subordinação, onerosidade e não eventualidade.",
           "fontes": [
-            "https://www.conjur.com.br/?p=843263",
-            "https://www.coad.com.br/home/noticias-detalhe/131348/stf-suspende-processos-em-todo-o-pais-sobre-licitude-de-contratos-de-prestacao-de-servicos"
+            "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-em-todo-o-pais-sobre-licitude-de-contratos-de-prestacao-de-servicos/",
+            "https://www.correiodamanha.com.br/politica/2025/04/194259-gilmar-mendes-suspende-processos-sobre-pejotizacao.html"
           ]
         }
       ]
@@ -160,7 +160,7 @@
           "status": "Vigente",
           "alerta": "A súmula não resolve a discussão sobre a configuração da justa causa. Nessa hipótese, o TST a considera inespecífica. A prova da falta grave segue a regra do art. 818 da CLT, com ônus do empregador por ser fato impeditivo do direito às verbas.",
           "fontes": [
-            "https://www.coad.com.br/home/noticias-detalhe/57028/pedido-de-demissao-nao-comprovado-e-convertido-em-dispensa-sem-justa-causa",
+            "https://juslaboris.tst.jus.br/bitstream/handle/20.500.12178/72699/013_mello.pdf?sequence=1",
             "https://www.vademecumprevidenciario.com.br/jurisprudencia/eme/934.7437.5219.3257"
           ]
         }
@@ -179,8 +179,8 @@
           "status": "Vigente",
           "alerta": "A proporção soma 3 dias por ano completo ao mínimo de 30 dias, limitada a 90 dias no total. Conferir o cálculo.",
           "fontes": [
-            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/40cdb02d4cd69047ebb489f7cec4e082",
-            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/340877d5a0f27564072bbe4823f364a"
+            "https://www.migalhas.com.br/quentes/164059/tst-analisa-43-controversias-e-altera-jurisprudencia",
+            "https://www.migalhas.com.br/depeso/174888/do-aviso-previo-proporcional"
           ]
         }
       ]
@@ -198,7 +198,7 @@
           "status": "Vigente",
           "alerta": "Divergência interna: há julgados do TST que afastam a multa quando a justa causa é revertida só em juízo, porque a extinção do contrato produziria efeitos a partir da decisão. Outros aplicam a multa mesmo nessa hipótese.",
           "fontes": [
-            "https://jurisprudencia-backend2.tst.jus.br/rest/documentos/980c74692b6b6ff056bfcd3c11485ebf",
+            "https://portal.trt3.jus.br/internet/jurisprudencia/incidentes-suscitados-irr-iac-arginc-tst/downloads/acordao_168.pdf",
             "https://jurisprudencia-backend.tst.jus.br/rest/documentos/3e4227990cdaa6c127ca9d8cee997234"
           ]
         }
